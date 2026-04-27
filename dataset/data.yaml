@@ -1,8 +1,14 @@
-path: /content/fruit-vcwnt-1
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+
+path: dataset                     # Đường dẫn tương đối so với file train.py (rất quan trọng)
+
+train: train/images
+val: valid/images
+test: test/images                 # bỏ nếu không có test set
 
 nc: 4
-names: ['apple', 'banana', 'kiwi', 'orange']
 
+names:
+  0: apple
+  1: banana
+  2: kiwi
+  3: orange
