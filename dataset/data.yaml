@@ -1,0 +1,14 @@
+path: D:/NgoThanhBao/Web/TrainFruitAI/dataset
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['apple', 'banana', 'kiwi', 'orange']
+
+roboflow:
+  workspace: thinh-rd9gw
+  project: fruit-vcwnt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thinh-rd9gw/fruit-vcwnt/dataset/1
